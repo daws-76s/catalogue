@@ -7,5 +7,5 @@ def configMap = [
     application: "nodejsVM",
     component: "catalogue"
 ]
-
+echo "Hello World"
 env
