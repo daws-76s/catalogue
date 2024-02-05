@@ -7,5 +7,4 @@ def configMap = [
     application: "nodejsVM",
     component: "catalogue"
 ]
-echo "Hello World"
-echo "Environment: $printenv"
+sh 'printenv'
